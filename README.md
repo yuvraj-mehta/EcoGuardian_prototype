@@ -35,6 +35,14 @@ We welcome contributions from the community! To contribute to EcoGuardian, follo
 4. Push to the branch: `git push origin feature/new-feature`
 5. Submit a pull request.
 
+### Links
+
+- [GitHub Repository(Testing repository for the first prototype)](https://github.com/testing-guy454/testing-repo)
+- [GitHub Repository(Final project repository)](https://github.com/yuvraj-mehta/EcoGuardian_prototype)
+- [Presentation (PPT) Link](https://docs.google.com/presentation/d/1nVbSUwZcMsvGNg33M8bRv0WSg9czIl4P/edit?usp=drive_link&ouid=106123035967170627709&rtpof=true&sd=true)
+- [Video Demo Link](link-to-video-demo)
+- [Deployment Link](https://yuvraj-mehta.github.io/EcoGuardian_prototype/)
+
 ### Contact
 
 For inquiries or support, please contact us at [testingarena@gmail.com](mailto:testingarena454@gmail.com).
