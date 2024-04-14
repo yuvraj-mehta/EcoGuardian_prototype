@@ -40,7 +40,7 @@ We welcome contributions from the community! To contribute to EcoGuardian, follo
 - [GitHub Repository(Testing repository for the first prototype)](https://github.com/testing-guy454/testing-repo)
 - [GitHub Repository(Final project repository)](https://github.com/yuvraj-mehta/EcoGuardian_prototype)
 - [Presentation (PPT) Link](https://docs.google.com/presentation/d/1nVbSUwZcMsvGNg33M8bRv0WSg9czIl4P/edit?usp=drive_link&ouid=106123035967170627709&rtpof=true&sd=true)
-- [Video Demo Link](link-to-video-demo)
+- [Video Demo Link](https://www.loom.com/share/8529846eaae94397ac64329311d097f8?sid=047deb96-6201-4440-9f24-528c32c873d4)
 - [Deployment Link](https://yuvraj-mehta.github.io/EcoGuardian_prototype/)
 
 ### Contact
