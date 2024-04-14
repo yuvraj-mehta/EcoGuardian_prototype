@@ -1,0 +1,113 @@
+/* Middle Section: 10 */
+.middle-section-10{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Middle Section 10: Top */
+.ms10-container1{
+  display: flex;
+  flex-direction: column;  
+  padding-bottom: 45px;
+}
+
+.contact-us-ms10{
+  display: inline-block;
+  padding-top: 25px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 12px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.ms10-contact{
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Middle Section: 3 Middle */
+.ms10-container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  justify-content: center;
+  flex: 1;
+  column-gap: 0px;
+  align-self: center;
+  width: 750px;
+}
+
+.full-name-card, .mail-card,.message-card{
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+label{
+  text-align: left;
+  font-size: 16px;
+  margin: 3px;
+}
+
+span{
+  color: red;
+}
+
+#full-name, #mail, #message{
+  border: solid 2px black;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.full-name-card, .mail-card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  flex: 1;
+}
+
+
+.message-card{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex: 1;
+}
+
+
+
+/* Middle Section: 3(Bottom) */
+.ms10-container3{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.Submit{
+  width: 185px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-you{
+  font-size: 12px;
+  color: rgb(130, 130, 130);
+}

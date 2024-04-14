@@ -1,0 +1,50 @@
+/* Middle Section: 9 */
+.middle-section-9{
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ms9-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 225px;
+  padding-right: 225px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Middle-section: 9(Top) */
+.our-story{
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.our-story-description{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Middle-section: 9(Bottom) */
+.read-more{
+  padding-top: 30px;
+}
+
+.read-more-button{
+  width: 185px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  background-color: inherit;
+}

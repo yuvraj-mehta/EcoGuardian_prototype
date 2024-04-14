@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+        <style>
+            body{
+               padding: 150px 250px 30px 250px;
+                
+
+            }
+            .formdesign{
+                font-size: 20px;
+            }
+            .formdesign input{
+                width:100%;
+                padding: 12px 20px;
+                border-radius: 10%;
+                background-color:whitesmoke;
+                border-color: aliceblue;
+            }
+            .outer {
+                background-color: azure;
+            }
+           
+            .outer{
+                display: flex;
+                
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px 50px 10px 50px;
+            }
+            .frm{
+                 padding-left: 50px; 
+                align-content: left;
+            }
+            .image{
+                 padding-right: 50px; 
+            }
+            .welcome{
+                font-size: 60px;
+                font-weight: bold;
+                 padding-left: 25px; 
+            }
+            #rem{
+                font-size: 14px;
+                align-content: left;
+                display: flex;
+                flex-direction: row;
+
+            }
+           
+            #remember{
+                display: inline;
+                margin-right: 70px;
+            }
+            button{
+                width: 250px;
+                height: 35px;
+                background-color: green;
+                margin-left: 30px;
+                padding-left: 15px;
+                border-radius: 7%;
+                border-color:white;
+                color: white;
+                font-size: 20px;
+            }
+            #google{
+                margin-left: 100px;
+                padding-left: 20px;
+                justify-content:space-between;
+                
+               
+            }
+            .createacc{
+                display: flex;
+                flex-direction: row;
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="outer">
+           <div class="frm">
+            <form>
+                <div class="welcome"> Welcome</div>
+                <div style="padding-left:25px;">We are glad to see you again with us</div><br><br>
+                <div class="formdesign" id="name">
+                    <input type="text" placeholder="username" name="fname">
+                    <br><br>
+                    <input type="text" placeholder="password" name="fname">
+                    <br><div id="rem">
+                      
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    <!-- <span id="remember">Remember me</span> -->
+                    <a  style="padding-left:15px ; display: inline; text-decoration: none;"href="">Forgot password?</a></div>
+                </div><br><br>
+                <button>Login</button>
+            </form>
+        <p style="margin-left: 135px;">-OR-</p>
+        <div id="google">
+            <img src="https://www.artsandmindlab.org/wp-content/uploads/2020/10/Google-Logo-300x300.png"
+            height="19px"
+            width="19px">
+            <img src="https://th.bing.com/th/id/OIP.QHODby_bS81-x2of8vCIhgAAAA?rs=1&pid=ImgDetMain"
+            height="22px"
+            width="22px">
+            <img src="https://th.bing.com/th/id/OIP.1Iu811HWtwNyHjvgHvIxvgAAAA?rs=1&pid=ImgDetMain"
+            height="18px"
+            width="18px">
+        </div>
+        <div class="createacc">
+            <p>Don't Have an Account?</p>
+            <a style="color: green; padding:15px 2px 0px 4px; font-size: 17px;text-decoration: none;" href=""><b>Create Account</b></a>
+        </div>
+        </div>
+            <div class="image">
+                <img style=border-radius:10% src="https://hi-static.z-dn.net/files/dc9/e53c7ef1038d6985261cc9279301080e.jpg"
+                 height="450px";
+                 width="400px">
+            </div>
+        </div>
+    </body>
+</html>

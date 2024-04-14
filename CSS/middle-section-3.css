@@ -1,0 +1,77 @@
+/* Middle Section: 3 */
+.middle-section-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Middle Section 1: Top */
+.ms3-container1{
+  display: flex;
+  flex-direction: column;  
+  padding-bottom: 45px;
+}
+
+.partners{
+  display: inline-block;
+  padding-top: 25px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 12px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.partners-description{
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* Middle Section: 3 Middle */
+.ms3-container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 70%;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo-container{
+  border: solid black 3px;
+  height: 100px;
+}
+
+.Company-logo{
+  height: 100px;
+}
+
+
+/* Middle Section: 3(Bottom) */
+.ms3-container3{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.become-partner{
+  width: 185px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+.middle-section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Middle Section 2(top) */
+.ms2-container1{
+  padding-bottom: 45px;
+  display: block;
+}
+
+.ms2-container1-top{
+  display: inline-block;
+  padding-top: 25px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 12px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.ms2-container1-bottom{
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Middle Section 2(Middle) */
+.ms2-container2{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.objective{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.objective-title{
+  color: rgb(48, 48, 48);
+  width: 18rem;
+  font-size: 30px;
+}
+
+.objective-description{
+  font-size: 16px;
+  color: rgb(61, 61, 61);
+  column-gap: 10px;
+  width: 18rem;
+}
+
+
+/* Middle Section 3(Bottom) */
+.ms2-container3{
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.join-us {
+  width: 185px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+}

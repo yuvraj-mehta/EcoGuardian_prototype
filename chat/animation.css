@@ -1,0 +1,29 @@
+.fly-up{
+  transition: transform 0.3s ease;
+
+}
+
+.fly-up:hover{
+  transform: translateY(-5px);
+}
+
+
+.shadow-effect{
+  box-shadow: 4px 4px #645D59;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-effect:hover {
+  transform: translateY(-3px);
+  box-shadow: 10px 10px #645D59;
+}
+
+.shadow-effect-black{
+  box-shadow: 4px 4px black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-effect-black:hover {
+  transform: translateY(-3px);
+  box-shadow: 10px 10px black;
+}

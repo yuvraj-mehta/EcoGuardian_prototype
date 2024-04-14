@@ -1,0 +1,41 @@
+/* Middle Section: 5 */
+.middle-section-5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #232323;
+}
+
+.ms5-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ms5-quote{
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 20px;
+}
+
+.ms5-join-us-button {
+  width: 185px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+	background-color: inherit;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+}
+

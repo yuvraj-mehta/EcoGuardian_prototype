@@ -1,0 +1,192 @@
+/* Middle Section: 8 */
+.middle-section-8{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Middle Section 8: Top */
+.ms8-container1{
+  display: flex;
+  flex-direction: column;  
+  padding-bottom: 45px;
+}
+
+.team{
+  display: inline-block;
+  padding-top: 25px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 12px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.team-description{
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Middle Section: 3 Middle */
+.ms8-container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  justify-content: center;
+  flex: 1;
+  column-gap: 20px;
+  align-self: center;
+}
+
+:root {
+  --card-height: 300px;
+  --card-width: calc(var(--card-height) / 1.5);
+  --animation-time: .5s;
+}
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+/* body {
+  background-color: #5e5e5e;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.card-container{
+  display: flex;
+  column-gap: 2rem;
+}
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  perspective:2500px;
+  cursor:pointer;
+}
+.wrapper {
+  width:100%;
+  height:100%;
+  position:absolute;
+  z-index:-1;
+  transition: all var(--animation-time);
+  border-radius:10px;
+  overflow:hidden;
+}
+.back-warrior {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.front-warrior {
+  width:130%;
+  opacity: 0;
+  position:absolute;
+  z-index:-1;
+  transition:all var(--animation-time);
+  bottom: 0px;
+}
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(40deg) translateZ(0);
+  box-shadow: 0 35px 32px -8px rgb(0,0,0, 0.75);
+}
+.card:hover .front-warrior {
+  opacity: 1;
+  transform: transalte3d(0%, -30%, -100%);
+  bottom: 50px;
+}
+
+/**/
+.wrapper::before, .wrapper::after {
+  content: "";
+  width:100%;
+  transition: all var(--animation-time);
+  position:absolute;
+  left:0;
+  opacity: 1;
+}
+.wrapper::before {
+  top: 0;
+  height:100%;
+  background-image: linear-gradient(to top,
+  transparent 46%, rgb(12,13,19,0.5) 68%, rgb(12,13,19) 97%
+  );
+}
+.wrapper::after {
+  bottom: 0;
+  height: calc(var(--card-height)/8);
+  background-image: linear-gradient(to top,
+  transparent 46%, rgb(12,13,19,0.4) 68%, rgb(12,13,19,.7) 100%
+  );
+}
+.card:hover .wrapper::after {
+  height: 0;
+}
+.card:hover .wrapper::before {
+  background-image: linear-gradient(to top,
+  transparent 0%, rgb(12,13,19,0.5) 68%, rgb(12,13,19) 97%
+  );
+}
+
+/*Text styles*/
+.title {
+  transition: all var(--animation-time);
+  color: #F47B5F;
+  font-size: calc(var(--card-height)/15);
+  font-weight: bold;
+  position:absolute;
+  bottom: calc(var(--card-height)/40);
+  font-family:impact, "sans-serif";
+  letter-spacing: 1.5px;
+}
+.card:hover .title {
+  letter-spacing: 3px;
+  transform: translate3d(0%, -50%, 100%);
+  font-size: calc(var(--card-height)/7);
+  bottom: 40px;
+  color: #F2613F;
+  text-shadow: 0  -1px  0   #AE2B0C,
+               0  -2px  0   #9E270B,
+               0  -3px  0   #8E230A, 
+               0  -4px  0   #7E1F09, 
+               0 -5px  0   #6F1B07,
+               0 -6px  0   #5F1706,
+              3px -3px 15px rgba(0,0,0,0.1),
+              3px -3px  5px rgba(0,0,0,0.3);
+}
+
+
+/* Middle Section: 3(Bottom) */
+.ms8-container3{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.meet-team{
+  width: 185px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}

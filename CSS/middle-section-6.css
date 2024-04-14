@@ -1,0 +1,103 @@
+/* Middle Section: 6 */
+.middle-section-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Middle Section 6: Top */
+.ms6-container1{
+  display: flex;
+  flex-direction: column;  
+  padding-bottom: 45px;
+}
+
+.why-join{
+  display: inline-block;
+  padding-top: 25px;
+  color: rgb(48, 48, 48);
+  padding-bottom: 12px;
+  font-size: 60px;
+  align-content: center;
+  text-align: center;
+}
+
+.join-description{
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Middle Section: 6 Middle */
+.ms6-container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  justify-content: center;
+  flex: 1;
+  row-gap: 20px;
+  align-self: center;
+}
+
+.join-cards{
+  border: solid black 2px;
+  flex: 1;
+  padding: 26px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+}
+
+.join-card-data1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-align: left;
+}
+
+.join-card-data2{
+  font-size: 18px;
+  text-align: left;
+  color: rgb(61, 61, 61);
+  padding-bottom: 20px;
+}
+
+.join-card-data3{
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+
+/* Middle Section: 6(Bottom) */
+.ms6-container3{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.become-partner{
+  width: 185px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+  border-width: 3px;
+  border: solid;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}
