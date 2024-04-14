@@ -37,6 +37,6 @@ We welcome contributions from the community! To contribute to EcoGuardian, follo
 
 ### Contact
 
-For inquiries or support, please contact us at [contact@ecoguardian.com](mailto:testingarena454@gmail.com).
+For inquiries or support, please contact us at [testingarena@gmail.com](mailto:testingarena454@gmail.com).
 
 Thank you for your interest in EcoGuardian! Together, let's make a difference for the planet. 🌍
