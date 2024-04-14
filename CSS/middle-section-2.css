@@ -33,25 +33,48 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 5px;
+  column-gap: 20px;
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  padding: 100px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  justify-content: center;
+  flex: 1;
+  row-gap: 20px;
+  align-self: center;
 }
 
 .objective{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+  border: solid black 2px;
+  /* flex: 1; */
+  padding: 26px;
+  width: 18rem;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
 }
 
 .objective-title{
-  color: rgb(48, 48, 48);
-  width: 18rem;
-  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-align: left;
 }
 
 .objective-description{
-  font-size: 16px;
+
+  font-size: 18px;
+  text-align: left;
   color: rgb(61, 61, 61);
-  column-gap: 10px;
-  width: 18rem;
+  padding-bottom: 20px;
 }
 
 
