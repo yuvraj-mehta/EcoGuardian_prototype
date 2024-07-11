@@ -25,16 +25,6 @@ EcoGuardian is an online community platform designed to connect environmentally 
 Some code used in EcoGuardian is reused from templates, which are currently unavailable (404 Not Found), Team member introduction cards and the coming soon page.
 
 
-### Contributing
-
-We welcome contributions from the community! To contribute to EcoGuardian, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/new-feature`
-3. Make your changes and commit them: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/new-feature`
-5. Submit a pull request.
-
 ### Links
 
 - [GitHub Repository(Testing repository for the first prototype)](https://github.com/testing-guy454/testing-repo)
